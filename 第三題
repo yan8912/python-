@@ -1,0 +1,12 @@
+sc = int(input("輸入成績(0-100):"))
+
+if sc >= 90 and sc < 101:
+    print("A")
+elif sc >= 80 and sc < 90:
+    print("B")
+elif sc >= 70 and sc < 80:
+    print("C")
+elif sc >= 60 and sc < 70:
+    print("D")
+else:
+    print("F")
