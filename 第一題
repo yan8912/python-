@@ -1,0 +1,11 @@
+num = int(input("輸入數字: "))
+
+
+if num < 0:
+    print("負數")
+elif num > 0:
+    print("正數")
+else:
+    print("零")
+   
+
