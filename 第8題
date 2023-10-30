@@ -1,0 +1,11 @@
+def is_palindrome(s):
+    s = s.replace(" ", "").lower()
+    rev = s[::-1]
+    return s == rev
+
+input_string = "A man a plan a canal Panama"
+result = is_palindrome(input_string)
+if result:
+    print("是回文字符串")
+else:
+    print("不是回文字符串")
