@@ -1,0 +1,13 @@
+def ly(year):
+    if (year % 4 == 0 and year % 100 !=0) or (year % 400 == 0):
+        return True
+    else:
+        return False
+    
+year = int(input("輸入年份: "))
+
+
+if ly(year):
+    print(f"{year}是閏年")
+else:
+    print(f"{year}不是閏年")
