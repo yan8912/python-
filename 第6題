@@ -1,0 +1,14 @@
+sc1 = int(input("第一個數: "))
+sc2 = int(input("第二個數: "))
+sc3 = int(input("第三個數: "))
+scores = [sc1,sc2,sc3]
+
+to_score = 0
+
+for score in scores:
+    to_score += score
+    
+num_sc = len(scores)
+
+aver_sc = to_score / num_sc
+print(f"平均分數: {aver_sc}")
