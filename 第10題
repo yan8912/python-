@@ -1,0 +1,5 @@
+import math
+
+radius = float(input("請輸入圓的半徑: "))
+c = math.pi * (radius ** 2)
+print(f"圓的面積為{round(c,3)}")
