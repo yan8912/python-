@@ -1,0 +1,14 @@
+tall = float(input("輸入身高(公分):"))
+he = float(input("輸入體重(公斤):"))
+
+tall = tall / 100
+BMI = he / (tall ** 2)
+
+
+print(f"你的BMI值:(BMI")
+if BMI <18.5:
+    print("過輕")
+elif BMI >=18.5 and BMI < 24:
+    print("正常")
+else:
+    print("過重")
