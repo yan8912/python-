@@ -1,0 +1,7 @@
+num1=float(input("第一個數字: "))
+num2=float(input("第二個數字: "))
+num3=float(input("第三個數字: "))
+
+numbers = [num1,num2,num3]
+mn = max(numbers)
+print(f"最大值為:[mn]")
